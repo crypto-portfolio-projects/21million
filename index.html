@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="utf-8">
+    <title>21Million Token on Binance Smart Chain</title>
+    <meta name="description" content="21Million Token on Binance Smart Chain">
+    <meta name="keywords" content="">
+    <meta name="author" content="21Million">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="assets/js/theme-switcher.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#31CB9E">
+    <link rel="shortcut icon" href="assets/img/icon.png">
+    <meta name="msapplication-TileColor" content="#080032">
+    <meta name="msapplication-config" content="https://21million.finance/assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" media="screen" href="assets/vendor/lightgallery/css/lightgallery-bundle.min.css">
+        <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+    <link rel="stylesheet" media="screen" href="assets/css/21m8e5e.css?v=15">
+    <style>
+      .page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      [data-bs-theme="dark"] .page-loading {
+        background-color: #0b0f19;
+      }
+      .page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .page-loading.active > .page-loading-inner {
+        opacity: 1;
+      }
+      .page-loading-inner > span {
+        display: block;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #9397ad;
+      }
+      [data-bs-theme="dark"] .page-loading-inner > span {
+        color: #fff;
+        opacity: .6;
+      }
+      .page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        border: .15em solid #b4b7c9;
+        border-right-color: transparent;
+        border-radius: 50%;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      [data-bs-theme="dark"] .page-spinner {
+        border-color: rgba(255,255,255,.4);
+        border-right-color: transparent;
+      }
+      @-webkit-keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <script>
+      (function () {
+        window.onload = function () {
+          const preloader = document.querySelector('.page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 1000);
+        };
+      })();
+    </script>
+  </head>
+
+  <body>
+
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div><span>Loading...</span>
+      </div>
+    </div>
+
+    <main class="page-wrapper">
+
+      <header class="header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky">
+        <div class="container px-3">
+          <a href="index.html" class="navbar-brand pe-3">
+                        <img src="assets/img/logo.svg" height="47" alt="21Million" style="height:47px;">
+                      </a>
+          <div id="navbarNav" class="offcanvas offcanvas-end">
+            <div class="offcanvas-header border-bottom">
+              <h5 class="offcanvas-title">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-current="page">Get Access</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="sign-up.html" class="dropdown-item">Register</a></li>
+                    <li><a href="sign-in.html" class="dropdown-item">Log In</a></li>
+                  </ul>
+                </li>
+                                              </ul>
+            </div>
+            <div class="offcanvas-header border-top border-light">
+              <a href="https://t.me/Reward21MillionBot" target="_blank" class="btn btn-primary w-100" rel="noopener">
+                <i class="bx bx-wallet fs-4 lh-1 me-1"></i>
+                &nbsp;Earn 21M Token
+              </a>
+            </div>      
+          </div>
+          <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="https://t.me/Reward21MillionBot" target="_blank" class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" rel="noopener">
+            <i class="bx bx-wallet fs-5 lh-1 me-1"></i>
+            &nbsp;Earn 21M Token
+          </a>
+        </div>
+      </header><section class="bg-dark bg-size-cover bg-repeat-0 bg-position-center position-relative overflow-hidden py-5 mb-4" style="background-image: url(assets/img/landing/saas-3/hero/hero-bg.jpg);" data-bs-theme="dark">
+    <div class="container position-relative zindex-2 pt-5 pb-md-2 pb-lg-4 pb-xl-5">
+
+        <div class="row align-items-center py-lg-2 py-xl-3 my-xl-1 my-xxl-3">
+            <div class="col-xl-5 col-md-6 pt-lg-5 text-center text-md-start mb-4 mb-md-0">
+                <h1 class="display-6 pb-2 pb-sm-3">21Million is the <span class="text-primary">most deflationary asset</span> on the Binance Smart Chain and is <span class="text-primary">backed by multiple cryptocurrencies.</span></h1>
+                <p class="text-body fs-lg d-xl-block pb-2 pb-md-0 mb-4 mb-md-5">Explore a cutting-edge ecosystem featuring an AI-powered vault that drives asset growth and state-of-the-art tools like the Smart Money Analyzer and Trading Bot to elevate your trading strategy. Join an exclusive community of investors and experience how 21M is redefining the future of digital finance.</p>
+                <div class="d-flex justify-content-center justify-content-lg-start pb-2 pt-lg-2 pt-xl-0">
+                    <a href="https://pancakeswap.finance/swap?outputCurrency=0x0d07873cacd5f40f47fb19b2c1115b7e1a9db4bf&amp;inputCurrency=BNB" target="_blank" class="btn btn-lg btn-primary shadow-primary me-3 me-sm-4">BUY 21M</a>
+                    <a href="index.html#buy" class="btn btn-lg btn-outline-light">HOW TO BUY</a>
+                </div>
+                <div class="input-group input-group-lg mt-5">
+                    <input class="form-control" type="text" value="0x0d07873cacd5f40f47fb19b2c1115b7e1a9db4bf" style="cursor:text;" disabled>
+                    <button class="btn btn-light copy-ca" type="button">Copy CA</button>
+                </div>
+                <script>
+                    var copyButton = document.querySelector('button.copy-ca');
+
+                    copyButton.addEventListener('click', function () {
+                        var contractAddress = document.querySelector('.form-control').value;
+
+                        function updateButtonText() {
+                            copyButton.textContent = "Copied!";
+                            setTimeout(function () {
+                                copyButton.textContent = "Copy CA";
+                            }, 3000);
+                        }
+
+                        if (navigator.clipboard && window.isSecureContext) {
+                            navigator.clipboard.writeText(contractAddress)
+                                    .then(function () {
+                                        updateButtonText();
+                                    })
+                                    .catch(function (err) {
+                                        console.error('Error: ', err);
+                                    });
+                        } else { // fallback: old browsers
+                            var textArea = document.createElement("textarea");
+                            textArea.value = contractAddress;
+                            textArea.style.position = "fixed";
+                            textArea.style.top = 0;
+                            textArea.style.left = 0;
+                            textArea.style.width = "2em";
+                            textArea.style.height = "2em";
+                            textArea.style.padding = 0;
+                            textArea.style.border = "none";
+                            textArea.style.outline = "none";
+                            textArea.style.boxShadow = "none";
+                            textArea.style.background = "transparent";
+                            document.body.appendChild(textArea);
+                            textArea.focus();
+                            textArea.select();
+
+                            try {
+                                var successful = document.execCommand('copy');
+                                if (successful) {
+                                    updateButtonText();
+                                }
+                            } catch (err) {
+                                console.error('Error: ', err);
+                            }
+
+                            document.body.removeChild(textArea);
+                        }
+                    });
+                </script>
+            </div>
+            <div class="col-xl-7 col-md-6 d-md-flex justify-content-end">
+                <div class="parallax mx-auto me-lg-0" style="max-width: 675px;">
+                    <div class="parallax-layer" data-depth="0.1">
+                        <img src="assets/img/21m/landing/hero-layer01.png" alt="Cardano Layer">
+                    </div>
+                    <div class="parallax-layer" data-depth="0.13">
+                        <img src="assets/img/21m/landing/hero-layer02.png" alt="Litecoin Layer">
+                    </div>
+                    <div class="parallax-layer zindex-5" data-depth="-0.12">
+                        <img src="assets/img/21m/landing/hero-layer03.png" alt="BNB Layer">
+                    </div>
+                    <div class="parallax-layer zindex-3" data-depth="0.27">
+                        <img src="assets/img/21m/landing/hero-layer04.png" alt="21Million Layer">
+                    </div>
+                    <div class="parallax-layer zindex-1" data-depth="-0.18">
+                        <img src="assets/img/21m/landing/hero-layer05.png" alt="Bitcoin Layer">
+                    </div>
+                    <div class="parallax-layer zindex-1" data-depth="0.1">
+                        <img src="assets/img/21m/landing/hero-layer06.png" alt="Ethereum Layer">
+                    </div>
+                </div>              
+            </div>
+        </div>
+
+    </div>
+</section>
+
+      <section class="container my-5">
+        <div class="swiper mx-n2" data-swiper-options='{
+          "slidesPerView": 2,
+          "pagination": {
+            "el": ".swiper-pagination",
+            "clickable": true
+          },
+          "breakpoints": {
+            "500": {
+              "slidesPerView": 3,
+              "spaceBetween": 8
+            },
+            "650": {
+              "slidesPerView": 4,
+              "spaceBetween": 8
+            },
+            "900": {
+              "slidesPerView": 5,
+              "spaceBetween": 8
+            },
+            "1100": {
+              "slidesPerView": 6,
+              "spaceBetween": 8
+            }
+          }
+        }'>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide py-3">
+              <a href="https://bscscan.com/token/0x0d07873cacd5f40f47fb19b2c1115b7e1a9db4bf" target="_blank" class="card card-body card-hover px-2 mx-2">
+                <img src="assets/img/21m/landing/brand-01.png" class="mx-auto my-2" width="154" alt="BNB Smart Chain">
+              </a>
+            </div>
+
+            <div class="swiper-slide py-3">
+              <a href="https://pancakeswap.finance/swap?outputCurrency=0x0d07873cacd5f40f47fb19b2c1115b7e1a9db4bf&amp;inputCurrency=BNB" target="_blank" class="card card-body card-hover px-2 mx-2">
+                <img src="assets/img/21m/landing/brand-02-dark.png" class="mx-auto my-2 light-mode-img" width="154" alt="21Million on PancakeSwap">
+                <img src="assets/img/21m/landing/brand-02-light.png" class="mx-auto my-2 dark-mode-img" width="154" alt="21Million on PancakeSwap">
+              </a>
+            </div>
+              
+            <div class="swiper-slide py-3">
+              <a href="https://www.coingecko.com/en/coins/21million" target="_blank" class="card card-body card-hover px-2 mx-2">
+                <img src="assets/img/21m/landing/brand-04-dark.png" class="mx-auto my-2 light-mode-img" width="154" alt="21Million on CoinGecko">
+                <img src="assets/img/21m/landing/brand-04-light.png" class="mx-auto my-2 dark-mode-img" width="154" alt="21Million on CoinGecko">
+              </a>
+            </div>
+
+            <div class="swiper-slide py-3">
+              <a href="https://coinmarketcap.com/dexscan/bsc/0x6923f81983feb33849e8a65c31188f8f5c66c635/" target="_blank" class="card card-body card-hover px-2 mx-2">
+                <img src="assets/img/21m/landing/brand-03-dark.png" class="mx-auto my-2 light-mode-img" width="154" alt="21Million on CoinMarketCap">
+                <img src="assets/img/21m/landing/brand-03-light.png" class="mx-auto my-2 dark-mode-img" width="154" alt="21Million on CoinMarketCap">
+              </a>
+            </div>
+              
+            <div class="swiper-slide py-3">
+              <a href="https://dexscreener.com/bsc/0x6923f81983feb33849e8a65c31188f8f5c66c635" target="_blank" class="card card-body card-hover px-2 mx-2">
+                <img src="assets/img/21m/landing/brand-07-dark.png" class="mx-auto my-2 light-mode-img" width="154" alt="21Million on Dexscreener">
+                <img src="assets/img/21m/landing/brand-07-light.png" class="mx-auto my-2 dark-mode-img" width="154" alt="21Million on Dexscreener">
+              </a>
+            </div>
+
+            <div class="swiper-slide py-3">
+              <a href="https://www.dextools.io/app/en/bnb/pair-explorer/0x6923f81983feb33849e8a65c31188f8f5c66c635" target="_blank" class="card card-body card-hover px-2 mx-2">
+                <img src="assets/img/21m/landing/brand-05-dark.png" class="mx-auto my-2 light-mode-img" width="154" alt="21Million on DEXTools">
+                <img src="assets/img/21m/landing/brand-05-light.png" class="mx-auto my-2 dark-mode-img" width="154" alt="21Million on DEXTools">
+              </a>
+            </div>
+              
+            <div class="swiper-slide py-3">
+              <a href="https://www.dexview.com/bsc/0x0D07873cAcD5f40f47Fb19b2C1115b7e1a9DB4BF" target="_blank" class="card card-body card-hover px-2 mx-2">
+                <img src="assets/img/21m/landing/brand-06-dark.png" class="mx-auto my-2 light-mode-img" width="154" alt="21Million on DEXView">
+                <img src="assets/img/21m/landing/brand-06-light.png" class="mx-auto my-2 dark-mode-img" width="154" alt="21Million on DEXView">
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-pagination position-relative pt-2 mt-4"></div>
+        </div>
+      </section>
+<section class="position-relative overflow-hidden pb-5" id="ecosystem">
+    <span class="position-absolute top-0 start-0 w-100 h-100 d-dark-mode-none" style="background: linear-gradient(141deg, rgba(255, 255, 255, .01) 17.3%, #F3F6FF 78.21%);"></span>
+    <div class="position-absolute top-0 start-0 w-100 h-100 d-none d-dark-mode-block" style="background: linear-gradient(141deg, rgba(11, 15, 25, .01) 17.3%, rgba(255, 255, 255, .04) 78.21%);"></div>
+
+    <div class="container position-relative zindex-2 pt-2 pt-sm-3 pt-md-4 pt-lg-5 mt-xl-3">
+        <h2 class="h1 text-center pb-1 mb-2">Ecosystem</h2>
+        <p class="fs-lg text-center pb-lg-2">Unique features are waiting for you</p>
+
+        <!-- 21M Vault -->
+        <div class="row align-items-center justify-content-center py-4 py-md-5 my-1 my-sm-3 my-md-0 my-xl-3" id="vault">
+            <div class="col-11 col-sm-9 col-md-7 col-lg-6 offset-lg-1 order-md-2 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0">
+                <div class="parallax ratio ratio-1x1 mx-auto" style="max-width: 500px;">
+                    <div class="parallax-layer position-absolute zindex-2" data-depth="-0.15">
+                        <img src="assets/img/21m/landing/vault5e1f.png?v=2" alt="21M Vault">
+                    </div>
+                    <div class="parallax-layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100" data-depth="0.1">
+                        <div class="rounded-circle bg-primary" style="width: 70%; height: 70%; opacity: .06;"></div>
+                    </div>
+                    <div class="parallax-layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100" data-depth="0.2">
+                        <div class="rounded-circle bg-primary" style="width: 55%; height: 55%; opacity: .06;"></div>
+                    </div>
+                    <div class="parallax-layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 zindex-3" data-depth="0.4">
+                        <div class="d-flex justify-content-center align-items-center rounded-circle bg-primary" style="width: 93px; height: 93px; box-shadow: 0 .1875rem 1.875rem -.125rem rgba(49, 203, 158, .95); ">
+                            <span class="h5 text-light mb-0">$150K+</span>
+                        </div>
+                    </div>
+                    <div class="parallax-layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100" data-depth="0.3">
+                        <div class="rounded-circle bg-primary" style="width: 40%; height: 40%; opacity: .06;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-xl-4 offset-xl-1 order-md-1 text-center text-md-start">
+                <h3 class="h2 mb-lg-4">21M Vault</h3>
+                <p class="fs-lg pb-lg-2 mb-4">The 21M Vault is the cornerstone of 21Million, serving as both a secure project reserve and a fortified digital safe that enhances the long-term value of 21M. It holds a diversified portfolio of top cryptocurrencies. AI-powered agents work around the clock to analyze markets and identify lucrative investment opportunities, ensuring continuous growth and professional management.</p>
+                <a href="https://docs.21million.finance/21million-token/ecosystem/21m-vault" target="_blank" class="btn btn-outline-primary rounded-pill">
+                    Discover 21M Vault
+                    <i class="bx bx-right-arrow-alt fs-lg ms-2 me-n1"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Reward Bot -->
+        <div class="row align-items-center justify-content-center justify-content-md-start py-4 py-md-5 my-2 my-sm-3 my-md-0 my-xl-3 py-xl-0" id="rewardbot">
+            <div class="col-11 col-sm-9 col-md-7 col-lg-6 col-xl-5 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0 offset-xl-1">
+                <div class="parallax" style="max-width: 636px;">
+                    <div class="parallax-layer" data-depth="0">
+                        <div class="ratio" style="--si-aspect-ratio: 89.6%"></div>
+                    </div>
+                    <div class="parallax-layer" data-depth="0.1">
+                        <img src="assets/img/21m/reward_bot.png" class="position-relative rounded-3" style="top: 1.5%; max-width: 482px; box-shadow: 0px 12px 48px -8px rgba(8, 11, 18, .40);" alt="Reward Bot">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-xl-4 offset-lg-1 text-center text-md-start">
+                <h3 class="h2 mb-lg-4">Reward Bot</h3>
+                <p class="fs-lg pb-lg-2 mb-4">Earn free 21M tokens effortlessly through our innovative Telegram-based Reward Bot. Complete everyday tasks such as daily challenges or faucet claims and boost your earnings by inviting friends. Special campaigns add extra rewards, making your journey in the 21Million ecosystem both fun and profitable.</p>
+                <a href="https://docs.21million.finance/21million-token/ecosystem/reward-bot" target="_blank" class="btn btn-outline-primary rounded-pill">
+                    Explore Reward Bot 
+                    <i class="bx bx-right-arrow-alt fs-lg ms-2 me-n1"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Analyzer -->
+        <div class="row align-items-center justify-content-center py-4 py-md-5 my-2 my-sm-3 my-md-0 my-xl-3" id="analyzer">
+            <div class="col-11 col-sm-9 col-md-7 col-lg-6 offset-lg-1 order-md-2 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0">
+                <div class="parallax" style="max-width: 636px;">
+                    <div class="parallax-layer" data-depth="0">
+                        <div class="ratio" style="--si-aspect-ratio: 89.6%"></div>
+                    </div>
+                    <div class="parallax-layer" style="padding-right: 24.2%;" data-depth="0.1">
+                        <img src="assets/img/21m/landing/analyzer-1.png" class="position-relative rounded-3" style="top: 27.5%; max-width: 482px; box-shadow: 0px 12px 48px -8px rgba(8, 11, 18, .40);" alt="Total users line chart">
+                    </div>
+                    <div class="parallax-layer" style="padding-left: 45.75%;" data-depth="-0.12">
+                        <img src="assets/img/21m/landing/analyzer-25e1f.png?v=2" class="position-relative rounded-3" style="max-width: 345px; box-shadow: 0px 12px 48px -8px rgba(8, 11, 18, .40);" alt="Traffic bar chart">
+                    </div>
+                    <div class="parallax-layer" style="padding-right: 7.547%; padding-left: 44.97%;" data-depth="0.3">
+                        <img src="assets/img/21m/landing/analyzer-3.png" class="position-relative rounded-3" style="top: 60.75%; max-width: 302px; box-shadow: 0px -15px 48px -8px rgba(8, 11, 18, .40);" alt="Traffic donut chart">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-xl-4 offset-xl-1 order-md-1 text-center text-md-start">
+                <h3 class="h2 mb-lg-4">Analyzer</h3>
+                <p class="fs-lg pb-lg-2 mb-4">The Analyzer harnesses live blockchain data and real-time feeds to deliver cutting-edge market intelligence that empowers your investment decisions. By aggregating insights from various trusted sources and monitoring top smart money wallets in real time, it provides up-to-the-minute performance metrics and deep insights into emerging market trends.</p>
+                <a href="https://docs.21million.finance/21million-token/ecosystem/analyzer" target="_blank" class="btn btn-outline-primary rounded-pill">
+                    Learn more
+                    <i class="bx bx-right-arrow-alt fs-lg ms-2 me-n1"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Trading Bot -->
+        <style>
+            @-webkit-keyframes hero-spin {
+                100% {
+                    -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg);
+                }
+            }
+            @keyframes hero-spin {
+                100% {
+                    -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg);
+                }
+            }
+            .hero-animation-spin {
+                -webkit-animation: hero-spin 35s linear infinite;
+                animation: hero-spin 35s linear infinite;
+            }
+            @-webkit-keyframes hero-fade {
+                0%, 100% {
+                    opacity: 0
+                }
+                50% {
+                    opacity: 1
+                }
+            }
+            @keyframes hero-fade {
+                0%, 100% {
+                    opacity: 0
+                }
+                50% {
+                    opacity: 1
+                }
+            }
+            .hero-animation-fade {
+                -webkit-animation: hero-fade 4s ease-in infinite;
+                animation: hero-fade 4s ease-in infinite;
+            }
+            .hero-animation-delay-1,
+            .hero-animation-delay-2,
+            .hero-animation-delay-3 {
+                opacity: 0;
+            }
+            .hero-animation-delay-1 {
+                animation-delay: .75s;
+            }
+            .hero-animation-delay-2 {
+                animation-delay: 1.5s;
+            }
+            .hero-animation-delay-3 {
+                animation-delay: 2s;
+            }
+        </style>
+        <div class="row align-items-center justify-content-center justify-content-md-start py-4 py-md-5 my-2 my-sm-3 my-md-0 my-xl-3" id="tradingbot">
+            <div class="col-11 col-sm-9 col-md-7 col-lg-5 col-xl-4 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0 offset-xl-1">
+                <div class="parallax" style="max-width: 480px;">
+                    <div class="parallax-layer" data-depth="0.2">
+
+                        <div class="position-relative ms-xl-0 ms-lg-4">
+                            <div class="position-absolute top-50 start-50 translate-middle ratio ratio-1x1" style="width: 125%; max-width: 49.75rem;">
+                                <div class="p-md-0 p-5">
+                                    <img src="assets/img/21m/landing/bg.png" alt="Shape" class="hero-animation-spin p-md-0 p-5">
+                                </div>
+                            </div>
+                            <div class="position-relative row row-cols-sm-2 row-cols-1 gx-xl-4 gx-lg-3 gx-md-4 gx-3">
+                                <div class="col">
+                                    <div class="d-sm-grid d-flex gap-xl-4 gap-lg-3 gap-md-4 gap-sm-3 gap-2">
+                                        <div class="d-flex align-items-center justify-content-center bg-secondary rounded-3" style="min-height: 176px; backdrop-filter: blur(6px);">
+                                            <div class="p-xl-4 p-sm-3 p-2 fs-xl fw-semibold text-center">
+                                                <span class="hero-animation-fade text-white">Lightning-fast Order Execution</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center bg-secondary rounded-3" style="min-height: 176px; backdrop-filter: blur(6px);">
+                                            <div class="p-xl-4 p-sm-3 p-2 fs-xl fw-semibold text-center">
+                                                <span class="hero-animation-fade hero-animation-delay-2 text-white">Decentralized Trading</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mt-sm-5 mt-2 pt-sm-5">
+                                    <div class="d-sm-grid d-flex gap-xl-4 gap-lg-3 gap-md-4 gap-sm-3 gap-2">
+                                        <div class="d-flex align-items-center justify-content-center bg-secondary rounded-3" style="min-height: 176px; backdrop-filter: blur(6px);">
+                                            <div class="p-xl-4 p-sm-3 p-2 fs-xl fw-semibold text-center">
+                                                <span class="hero-animation-fade hero-animation-delay-1 text-white">AI-Driven Trading</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center bg-secondary rounded-3" style="min-height: 176px; backdrop-filter: blur(6px);">
+                                            <div class="p-xl-4 p-sm-3 p-2 fs-xl fw-semibold text-center">
+                                                <span class="hero-animation-fade hero-animation-delay-3 text-white">MEV Protection</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-xl-4 offset-lg-2 text-center text-md-start">
+                <h3 class="h2 mb-lg-4">Trading Bot</h3>
+                <p class="fs-lg pb-lg-2 mb-4">The 21M Trading Bot is a next-generation, AI-supported platform built for swift and secure decentralized trading. Seamlessly integrated with our Wallet Analyzer, it empowers you to copy trades from top smart money and alpha wallets, giving you a clear market advantage. Benefit from lightning-fast order execution, robust MEV protection and decentralized trading across multiple blockchains.</p>
+                <a href="https://docs.21million.finance/21million-token/ecosystem/trading-bot" target="_blank" class="btn btn-outline-primary rounded-pill">
+                    Show Trading Bot
+                    <i class="bx bx-right-arrow-alt fs-lg ms-2 me-n1"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- More button -->
+        <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center gap-3 gap-sm-4 pt-4 py-md-3 my-1 my-sm-3 my-md-0 my-xl-2">
+            <a href="https://docs.21million.finance/21million-token/ecosystem" target="_blank" class="btn btn-lg btn-outline-primary rounded-pill">Explore the entire 21M ecosystem</a>
+        </div>
+    </div>
+</section>
+
+<!-- Tokenomics -->
+<section class="container mb-lg-3 mb-3 pb-3" id="tokenomics">
+
+    <div class="text-center pb-5 pt-5 pb-md-0 mb-2 mb-md-5 mx-auto" style="max-width: 530px;">
+        <h2 class="h1">Tokenomics</h2>
+    </div>
+    <div class="row align-items-center pb-2">
+
+        <!-- Text -->
+        <div class="col-md-6 col-xl-5 text-center text-md-start mb-md-0">
+            <div class="mx-3 mx-md-0">
+                <div class="display-3 text-primary mb-1">21,000,000</div>
+                <span>Max. Supply</span>
+            </div>
+            <div class="mx-3 mx-md-0 pt-4 pt-lg-5">
+                <div class="display-3 mb-1" style="color:#F7931A;">3,202,929</div>
+                <span>Token Burned</span>
+            </div>            
+            <div class="d-flex justify-content-center justify-content-md-between pt-4 pt-lg-5">
+                <div class="mx-3 mx-md-0">
+                    <div class="display-3 text-primary mb-1">2%</div>
+                    <span>Burning Tax</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-6 offset-xl-1">
+            <style>#chartdiv {
+                    max-width: 100%;
+                    height: 500px;
+                }</style>
+            <script src="../cdn.amcharts.com/lib/4/core.js"></script>
+            <script src="../cdn.amcharts.com/lib/4/charts.js"></script>
+            <script src="../cdn.amcharts.com/lib/4/themes/animated.js"></script>
+            <script>
+                                                    am4core.ready(function () {
+
+                        am4core.addLicense("CH7076-4474-0747-5646");
+                        am4core.useTheme(am4themes_animated);
+                        var chart = am4core.create("chartdiv", am4charts.PieChart3D);
+                        chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
+
+                        chart.legend = new am4charts.Legend();
+
+                        chart.data = [
+                            {
+                                supply: "Token Burned",
+                                token: 3202929,
+                                color: am4core.color("#F7931A")
+                            },
+                            {
+                                supply: "Liquidity",
+                                token: 1866063,
+                                color: am4core.color("#31CB9E")
+                            },
+                            {
+                                supply: "Circulating Supply",
+                                token: 15931008,
+                                color: am4core.color("#6366f1")
+                            }
+                        ];
+
+                        chart.legend.labels.template.fill = am4core.color("#ffffff");
+                        chart.legend.valueLabels.template.fill = am4core.color("#ffffff");
+                        chart.legend.valueLabels.template.text = "{value.percent.formatNumber('#.00')}%";
+
+                        var series = chart.series.push(new am4charts.PieSeries3D());
+                        series.slices.template.tooltipText = "{category}: {value.percent.formatNumber('#.00')}% ({value})";
+                        series.slices.template.propertyFields.fill = "color";
+                        series.labels.template.disabled = true;
+                        series.dataFields.value = "token";
+                        series.dataFields.category = "supply";
+
+                    }); // end am4core.ready()
+            </script>
+            <div id="chartdiv"></div>
+        </div>
+    </div>
+
+    <div class="swiper mt-5 pb-sm-2 pb-md-2 pb-lg-2 mb-xxl-3 mx-n2" data-swiper-options='{
+         "slidesPerView": 1,
+         "pagination": {
+         "el": ".swiper-pagination",
+         "clickable": true
+         },
+         "breakpoints": {
+         "500": {
+         "slidesPerView": 1,
+         "spaceBetween": 8
+         },
+         "650": {
+         "slidesPerView": 2,
+         "spaceBetween": 8
+         },
+         "900": {
+         "slidesPerView": 2,
+         "spaceBetween": 8
+         },
+         "1200": {
+         "slidesPerView": 3,
+         "spaceBetween": 8
+         }
+         }
+         }'>
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide h-auto py-3">
+                <div class="card border-0 shadow h-90 text-center text-sm-start p-3 mx-2">
+                    <div class="card-body">
+                        <div class="d-inline-block rounded-circle mb-4">
+                            <img src="assets/img/21m/icons/supply.png" width="48" alt="Total Supply">
+                        </div>
+                        <h3 class="h1 mb-1">17,797,071 <span class="h4">21M</span></h3>
+                        <p class="fs-lg mb-0">Total Supply</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide h-auto py-3">
+                <div class="card border-0 shadow h-90 text-center text-sm-start p-3 mx-2">
+                    <div class="card-body">
+                        <div class="d-inline-block rounded-circle mb-4">
+                            <img src="assets/img/21m/icons/coin.png" width="48" alt="21M Price">
+                        </div>
+                        <h3 class="h1 mb-1"><span class="h4">$</span> 0,03853</h3>
+                        <p class="fs-lg mb-0">21M Price</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide h-auto py-3">
+                <div class="card border-0 shadow h-90 text-center text-sm-start p-3 mx-2">
+                    <div class="card-body">
+                        <div class="d-inline-block rounded-circle mb-4">
+                            <img src="assets/img/21m/icons/mc5e1f.png?v=2" width="48" alt="Market Cap">
+                        </div>
+                        <h3 class="h1 mb-1"><span class="h4">$</span> 669,522</h3>
+                        <p class="fs-lg mb-0">Market Cap</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide h-auto py-3">
+                <div class="card border-0 shadow h-90 text-center text-sm-start p-3 mx-2">
+                    <div class="card-body">
+                        <div class="d-inline-block rounded-circle mb-4">
+                            <img src="assets/img/21m/icons/vault30f4.png?v=3" width="48" alt="21M Vault Reserve">
+                        </div>
+                        <h3 class="h1 mb-1"><span class="h4">$</span> 170,174</h3>
+                        <p class="fs-lg mb-0">21M Vault Reserve</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination (bullets) -->
+        <div class="swiper-pagination position-relative pt-4 mt-4"></div>
+    </div>
+
+</section>
+
+<section class="container mb-5 pb-5" id="burning">
+    <div class="bg-dark bg-size-cover bg-position-center bg-repeat-0 position-relative overflow-hidden rounded-3 py-lg-3 py-xl-5 px-4 px-lg-5 px-xl-0" style="background-image: url(assets/img/landing/saas-3/cta-bg.jpg);" data-bs-theme="dark">
+        <div class="row position-relative zindex-2 py-3 my-1 my-md-3">
+            <div class="col-md-6">
+                <div class="mx-auto" style="max-width: 480px;">
+                    <h2 class="pb-1 pb-md-3 pb-lg-4">Every day, an average of <span style="color:#F7931A;">6,032</span> 21M tokens* are repurchased and permanently removed from circulation.</h2>
+                    <p><i>*Based on the buybacks of the last 30 days.</i></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mx-auto" style="max-width: 480px;">
+                    <h3 class="pb-3 text-gradient-primary">See how buybacks will reduce the circulating supply in the future.</h3>
+                    <input type="range" class="form-range" min="1" max="60" value="6" id="customRange">
+                    <h4 class="mt-3">In <span id="monthSpan" style="color:#F7931A;">6 months</span>, about <span id="tokensSpan" style="color:#F7931A;">500,000</span> 21M tokens* are expected to be burned, which is <span id="percentSpan" style="color:#F7931A;">3.21%</span> of the total supply.</h4>
+                </div>
+            </div>
+            <script>
+                const slider = document.getElementById("customRange");
+                const monthSpan = document.getElementById("monthSpan");
+                const tokensSpan = document.getElementById("tokensSpan");
+                const percentSpan = document.getElementById("percentSpan");
+
+                function updateCalculation() {
+                    const months = parseInt(slider.value);
+                    const tokensPerDay = 6032;
+                    const totalSupply = 17797071;
+
+                    const burnedTokens = months * 30 * tokensPerDay;
+                    const percentage = (burnedTokens / totalSupply) * 100;
+
+                    monthSpan.textContent = months + (months === 1 ? " month" : " months");
+                    tokensSpan.textContent = burnedTokens.toLocaleString('en-US');
+                    percentSpan.textContent = percentage.toFixed(2) + "%";
+                }
+                slider.addEventListener("input", updateCalculation);
+                updateCalculation();
+            </script>
+        </div>
+    </div>
+</section>
+
+<section class="bg-secondary" id="roadmap">
+    <div class="container py-5 mb-lg-5">
+        <h2 class="h1 pt-5 pb-5 text-center">Roadmap</h2>
+
+        <!-- Swiper slider -->
+        <div class="swiper mb-xl-5 text-sm-start text-center" data-swiper-options='{
+             "spaceBetween": 24,
+             "autoplay": true,
+             "breakpoints": {
+             "450": {
+             "slidesPerView": 1
+             },
+             "500": {
+             "slidesPerView": 2
+             },
+             "850": {
+             "slidesPerView": 2
+             },
+             "1200": {
+             "slidesPerView": 3
+             }
+             },
+             "pagination": {
+             "el": ".swiper-pagination",
+             "clickable": true
+             }
+             }'>
+
+            <div class="swiper-wrapper pt-4">
+
+                <div class="swiper-slide">
+                    <div class="mx-sm-0 mx-auto" style="max-width: 29.125rem;">
+                        <h4 class="mb-4">Phase 1 <i class="bx bx-check lead text-primary" style="vertical-align:bottom;"></i></h4>
+                        <p class="border-bottom py-2 mb-0">Website &amp; Token Development <i class="bx bx-check lead text-primary" style="vertical-align:bottom;"></i></p>
+                        <p class="border-bottom py-2 mb-0">Social Media <i class="bx bx-check lead text-primary" style="vertical-align:bottom;"></i></p>
+                        <p class="border-bottom py-2 mb-0">Presale <i class="bx bx-check lead text-primary" style="vertical-align:bottom;"></i></p>
+                        <p class="border-bottom py-2 mb-0">Listing on PancakeSwap <i class="bx bx-check lead text-primary" style="vertical-align:bottom;"></i></p>
+                        <p class="border-bottom py-2 mb-0">Community Portfolio Launch <i class="bx bx-check lead text-primary" style="vertical-align:bottom;"></i></p>
+                        <p class="border-bottom py-2 mb-0">CoinGecko Listing  <i class="bx bx-check lead text-primary" style="vertical-align:bottom;"></i></p>
+                        <p class="border-bottom py-2 mb-0">First Buybacks &amp; Burns <i class="bx bx-check lead text-primary" style="vertical-align:bottom;"></i></p>
+                        <p class="border-bottom py-2 mb-0">$50,000 Vault Reserve <i class="bx bx-check lead text-primary" style="vertical-align:bottom;"></i></p>
+                        <p class="pt-2 mb-0">500 21M Holder <i class="bx bx-check lead text-primary" style="vertical-align:bottom;"></i></p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="mx-sm-0 mx-auto" style="max-width: 29.125rem;">
+                        <h4 class="mb-4">Phase 2 <i class="bx bx-refresh lead text-secondary" style="vertical-align:middle;" data-bs-toggle="tooltip" data-bs-placement="right" title="in progress"></i></h4>              
+                        <p class="border-bottom py-2 mb-0">21M Reward Bot <i class="bx bx-check lead text-primary" style="vertical-align:bottom;"></i></p>
+                        <p class="border-bottom py-2 mb-0">Marketing Campaigns <i class="bx bx-refresh lead text-secondary" style="vertical-align:bottom;" data-bs-toggle="tooltip" data-bs-placement="right" title="in progress"></i></p>
+                        <p class="border-bottom py-2 mb-0">21M Analyzer <i class="bx bx-refresh lead text-secondary" style="vertical-align:bottom;" data-bs-toggle="tooltip" data-bs-placement="right" title="in progress"></i></p>
+                        <p class="border-bottom py-2 mb-0">21M Trading Bot <i class="bx bx-refresh lead text-secondary" style="vertical-align:bottom;" data-bs-toggle="tooltip" data-bs-placement="right" title="in progress"></i></p>
+                        <p class="border-bottom py-2 mb-0">VIP Community <i class="bx bx-refresh lead text-secondary" style="vertical-align:bottom;" data-bs-toggle="tooltip" data-bs-placement="right" title="in progress"></i></p>
+                        <p class="border-bottom py-2 mb-0">CoinMarketCap Listing <i class="bx bx-refresh lead text-secondary" style="vertical-align:bottom;" data-bs-toggle="tooltip" data-bs-placement="right" title="in progress"></i></p>
+                        <p class="border-bottom py-2 mb-0">$250,000 Vault Reserve <i class="bx bx-refresh lead text-secondary" style="vertical-align:bottom;" data-bs-toggle="tooltip" data-bs-placement="right" title="in progress"></i></p>
+                        <p class="mb-0 pt-2">2,500 21M Holder <i class="bx bx-refresh lead text-secondary" style="vertical-align:bottom;" data-bs-toggle="tooltip" data-bs-placement="right" title="in progress"></i></p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="mx-sm-0 mx-auto" style="max-width: 29.125rem;">
+                        <h4 class="mb-4">Phase 3</h4>
+                        <p class="border-bottom py-2 mb-0">Airdrops</p>
+                        <p class="border-bottom py-2 mb-0">Partnerships</p>
+                        <p class="border-bottom py-2 mb-0">T1 CEX Listing</p>
+                        <p class="border-bottom py-2 mb-0">Increase of Marketing</p>
+                        <p class="border-bottom py-2 mb-0">$1,000,000 Vault Reserve</p>
+                        <p class="mb-0 pt-2">10,000 21M Holder</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination position-static pt-4 pb-5"></div>
+
+        </div>
+    </div>
+</section>
+
+<!-- How to buy 21M -->
+<section class="container pt-5 mb-lg-5 mb-4 pb-3" id="buy">
+    <div class="text-center pb-4 pb-md-0 mb-2 mb-md-5 pt-lg-3 mx-auto" style="max-width: 530px;">
+        <h2 class="h1 pb-5">How to Buy 21M?</h2>
+    </div>
+
+    <!-- Steps -->
+    <div class="steps steps-sm steps-horizontal-md steps-center pb-5 mb-md-2 mb-lg-3">
+        <div class="step">
+            <div class="step-number">
+                <div class="step-number-inner">1</div>
+            </div>
+            <div class="step-body">
+                <h3 class="h4 mb-3">Create a Wallet</h3>
+                <p class="mb-0">Download and set up a wallet that supports Binance Smart Chain, like <a href="https://metamask.io/" target="_blank">MetaMask</a> or <a href="https://trustwallet.com/" target="_blank">Trust Wallet</a>. Securely store your recovery phrase and password to protect your digital assets.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">
+                <div class="step-number-inner">2</div>
+            </div>
+            <div class="step-body">
+                <h3 class="h4 mb-3">Get Some BNB</h3>
+                <p class="mb-0">Purchase Binance Coin (BNB) from a <a href="https://www.binance.com/" target="_blank">trusted exchange</a> and transfer it to your wallet. BNB is needed for transaction fees and to swap for 21M tokens.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">
+                <div class="step-number-inner">3</div>
+            </div>
+            <div class="step-body">
+                <h3 class="h4 mb-3">Go to PancakeSwap</h3>
+                <p class="mb-0">Visit <a href="https://pancakeswap.finance/?outputCurrency=0x0d07873cacd5f40f47fb19b2c1115b7e1a9db4bf&amp;inputCurrency=BNB" target="_blank">PancakeSwap</a> and connect your wallet. Ensure you are on the Binance Smart Chain network to enable smooth trading.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">
+                <div class="step-number-inner">4</div>
+            </div>
+            <div class="step-body">
+                <h3 class="h4 mb-3">Swap BNB for 21M</h3>
+                <p class="mb-0">Select the swap option on PancakeSwap and enter the amount of BNB you wish to trade. Adjust settings like slippage if necessary, then confirm the swap to receive your 21M tokens.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="position-relative bg-dark pt-lg-4 pt-xl-5 pb-5" style="background: linear-gradient(90deg, #0b0f19 0%, #172033 51.04%, #0b0f19 100%);">
+    <div class="jarallax position-absolute top-0 start-0 w-100 h-100" data-jarallax data-speed="0.4">
+        <div class="jarallax-img" style="background-image: url(assets/img/landing/saas-5/pricing-bg-pattern.png);"></div>
+    </div>
+    <div class="container position-relative zindex-2 pt-5" data-bs-theme="dark">
+        <h2 class="h1 text-center mb-4">Join our Community</h2>
+        <p class="fs-lg text-center text-muted pb-2 mb-5">Follow us and keep up to date with the freshest news!</p>
+        <div class="swiper mb-5" data-swiper-options='{
+             "slidesPerView": 2,
+             "pagination": {
+             "el": ".swiper-pagination",
+             "clickable": true
+             },
+             "breakpoints": {
+             "500": {
+             "slidesPerView": 2
+             },
+             "650": {
+             "slidesPerView": 3
+             },
+             "900": {
+             "slidesPerView": 3
+             },
+             "1100": {
+             "slidesPerView": 3
+             }
+             }
+             }'>
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="position-relative text-center border-end mx-n1">
+                        <a href="https://t.me/Token21Million" target="_blank" class="btn btn-icon btn-secondary btn-telegram btn-lg stretched-link" aria-label="Telegram">
+                            <i class="bx bxl-telegram"></i>
+                        </a>
+                        <div class="pt-4">
+                            <h6 class="mb-1">Telegram</h6>
+                            <p class="fs-sm text-muted mb-0">@Token21Million</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="position-relative text-center border-end mx-n1">
+                        <a href="https://t.me/Reward21MillionBot" target="_blank" class="btn btn-icon btn-secondary btn-telegram btn-lg stretched-link" aria-label="Telegram">
+                            <i class="bx bx-bot"></i>
+                        </a>
+                        <div class="pt-4">
+                            <h6 class="mb-1">Reward Bot</h6>
+                            <p class="fs-sm text-muted mb-0">@Reward21MillionBot</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="position-relative text-center mx-n1">
+                        <a href="https://twitter.com/21MillionToken" target="_blank" class="btn btn-icon btn-secondary btn-twitter btn-lg stretched-link" aria-label="Twitter">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <div class="pt-4">
+                            <h6 class="mb-1">Twitter</h6>
+                            <p class="fs-sm text-muted mb-0">@21MillionToken</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination position-relative bottom-0 pt-3 mt-4"></div>
+        </div>
+    </div>
+
+</section>
+
+    </main>
+
+    <footer class="footer bg-dark pt-5 pb-4 mt-5" data-bs-theme="dark">
+      <div class="container pt-1 pt-md-3 pt-lg-4 pt-xl-5">
+        <div class="row">
+          <div class="col-lg-5 col-xl-4 mb-4 mb-md-5 mb-lg-0">
+            <div class="d-flex align-items-center pb-3 mb-1">
+              <div class="navbar-brand text-dark p-0 pe-1 me-0">
+                <img src="assets/img/logo.svg" alt="21Million" style="height:47px;">
+              </div>
+              <hr class="vr mt-2 mx-3" style="height: 26px;">
+              <div class="text-white fw-semibold ps-1">The Crypto Standard</div>
+            </div>
+            <p class="text-body fs-sm pb-1 pb-md-2 pb-lg-3 mb-3">Contract Address on BSC:<br>0x0d07873cacd5f40f47fb19b2c1115b7e1a9db4bf</p>
+            <div class="d-flex flex-column flex-sm-row flex-lg-column align-items-sm-center align-items-lg-start justify-content-between">
+              <div class="d-flex pt-4 pt-sm-0 pt-lg-4 mt-lg-3">
+                <a href="https://t.me/Token21Million" target="_blank" class="btn btn-icon btn-secondary btn-telegram rounded-circle me-3" aria-label="Telegram">
+                  <i class="bx bxl-telegram"></i>
+                </a>
+                <a href="https://twitter.com/21MillionToken" target="_blank" class="btn btn-icon btn-secondary btn-twitter rounded-circle me-3" aria-label="Twitter">
+                  <i class="bx bxl-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 offset-xl-1">
+            <div id="footer-links" class="row">
+              <div class="col-md-4">
+                <h6 class="fs-lg mb-1 mb-md-3">
+                  <span class="d-none d-md-block">21Million</span>
+                  <a href="#tools" class="d-block text-dark dropdown-toggle d-md-none py-2" data-bs-toggle="collapse">21Million</a>
+                </h6>
+                <div id="tools" class="collapse d-md-block" data-bs-parent="#footer-links">
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-1">
+                      <a href="index.html#top" class="nav-link px-0 py-1" data-scroll>Home</a>
+                    </li>
+                    <li class="nav-item mb-1">
+                      <a href="index.html#tokenomics" class="nav-link px-0 py-1" data-scroll>Tokenomics</a>
+                    </li>
+                    <li class="nav-item mb-1">
+                      <a href="index.html#burning" class="nav-link px-0 py-1" data-scroll>Burning Stats</a>
+                    </li>
+                    <li class="nav-item mb-1">
+                      <a href="index.html#roadmap" class="nav-link px-0 py-1" data-scroll>Roadmap</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <h6 class="fs-lg mb-1 mb-md-3">
+                  <span class="d-none d-md-block">Ecosystem</span>
+                  <a href="#useful-links" class="d-block text-dark dropdown-toggle d-md-none py-2" data-bs-toggle="collapse">Ecosystem</a>
+                </h6>
+                <div id="useful-links" class="collapse d-md-block" data-bs-parent="#footer-links">
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-1">
+                      <a href="index.html#vault" class="nav-link px-0 py-1" data-scroll>21M Vault</a>
+                    </li>
+                    <li class="nav-item mb-1">
+                      <a href="index.html#rewardbot" class="nav-link px-0 py-1" data-scroll>Reward Bot</a>
+                    </li>
+                    <li class="nav-item mb-1">
+                      <a href="index.html#analyzer" class="nav-link px-0 py-1" data-scroll>Analyzer</a>
+                    </li>
+                    <li class="nav-item mb-1">
+                      <a href="index.html#tradingbot" class="nav-link px-0 py-1" data-scroll>Trading Bot</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>    
+              <div class="col-md-4">
+                <h6 class="fs-lg mb-1 mb-md-3">
+                  <span class="d-none d-md-block">Help Center</span>
+                  <a href="#resources" class="d-block text-dark dropdown-toggle d-md-none py-2" data-bs-toggle="collapse">Help Center</a>
+                </h6>
+                <div id="resources" class="collapse d-md-block" data-bs-parent="#footer-links">
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-1">
+                      <a href="index.html#buy" class="nav-link px-0 py-1" data-scroll>How To Buy 21M?</a>
+                    </li>
+                    <li class="nav-item mb-1">
+                      <a href="https://docs.21million.finance/" target="_blank" class="nav-link px-0 py-1">Documentation</a>
+                    </li>
+                    <li class="nav-item mb-1">
+                      <a href="contact.html" class="nav-link px-0 py-1">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+        <div class="d-md-flex flex-row-reverse align-items-center justify-content-between pt-sm-2 pt-md-2 pt-lg-1 pb-2 mt-4">         
+          <p class="nav d-block fs-sm mb-0 order-md-1">
+            <span class="text-body">© Prototype of 21million. <a href="https://github.com/pq-cypher" >Designed by Cypher</a>.</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    
+    <a href="#top" class="btn-scroll-top" data-scroll>
+      <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+      <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+
+    <script src="assets/vendor/parallax-js/dist/parallax.min.js"></script>
+    <script src="assets/vendor/rellax/rellax.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/lightgallery/lightgallery.min.js"></script>
+    <script src="assets/vendor/lightgallery/plugins/video/lg-video.min.js"></script>
+    <script src="assets/js/theme.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/customfb74.js?v=16"></script>
+    <script src="../js.hcaptcha.com/1/api.js" async defer></script>
+      </body>
+</html>

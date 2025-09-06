@@ -1,0 +1,123 @@
+a, .btn-link {
+    color: rgb(49, 203, 158);
+}
+.btn-link:hover {
+    color: rgb(39, 162, 126);
+}
+.text-primary {
+    color: rgb(49, 203, 158) !important;
+}
+.active {
+    color: rgb(49, 203, 158) !important;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: rgb(39, 162, 126);
+}
+.nav-link:hover, .nav-link:focus, .nav-link:active, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar .nav-item:hover>.nav-link:not(.disabled) {
+    color: #27A07D !important;
+}
+.dropdown-menu-dark li:hover>.dropdown-item, [data-bs-theme=dark] .dropdown-menu:not([data-bs-theme=light]) li:hover>.dropdown-item {
+    color: #27A07D !important;
+}
+.list-group-item-action:hover, .list-group-item-action:focus {
+    color: #27A07D;
+    background-color: rgba(49, 203, 158, .1);
+}
+.list-group-item.active {
+    color: #fff !important;
+    background-color: rgb(49, 203, 158);
+    box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(49, 203, 158,.9);
+}
+.swiper-pagination-bullet-active {
+    background-color: rgb(49, 203, 158) !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-color: rgb(49, 203, 158);
+}
+.btn-primary {
+    background-color: rgb(49, 203, 158) !important;
+    border-color: rgb(49, 203, 158) !important;
+    color: rgb(34, 34, 34) !important;
+}
+.btn-primary:hover, .btn-primary:active {
+    background-color: rgb(39, 162, 126) !important;
+    border-color: rgb(39, 162, 126) !important;
+}
+.btn-outline-primary {
+    color: #31CB9E !important;
+    border-color: rgb(49, 203, 158) !important;
+}
+.btn-outline-primary:hover, .btn-outline-primary:active {
+    color: rgb(34, 34, 34) !important;
+    background-color: rgb(49, 203, 158) !important;
+    border-color: rgb(49, 203, 158) !important;
+}
+.bg-primary {
+    background-color: rgb(49, 203, 158) !important;
+}
+.btn-video:hover, .btn-video:active {
+    color: rgb(34, 34, 34) !important;
+    background-color: rgb(39, 162, 126) !important;
+    border-color: rgb(39, 162, 126) !important;
+    box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(49, 203, 158,.9) !important;
+}
+.shadow-primary {
+    box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(49, 203, 158,.9) !important;
+}
+.form-control:focus {
+    border-color: rgba(49, 203, 158,.35);
+    box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(49, 203, 158,.2);
+}
+.accordion-button:not(.collapsed)::after {
+    box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(49, 203, 158,.6);
+}
+.text-gradient-primary {
+    background-image: linear-gradient(to right, #31cb9e, #F7931A, #F7931A);
+}
+.form-check .form-check-label {
+    color:#33354d !important;
+}
+.form-select option {
+    color:#000;
+}
+#customRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #31CB9E;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: -7px;
+}
+#customRange::-moz-range-thumb {
+    background-color: #31CB9E;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.presale-countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 0px .5em;
+    text-transform: uppercase;
+}
+.presale-countdown li span {
+    display: block;
+}
+[data-bs-theme=dark] .form-switch:not([data-bs-theme=light]).mode-switch .form-check-input:checked~.form-check-label:first-of-type, [data-bs-theme=dark] .form-switch:not([data-bs-theme=light]).price-switch .form-check-input:checked~.form-check-label:first-of-type {
+    color: rgba(255,255,255,.6) !important;
+}
+[data-bs-theme=dark] .form-switch:not([data-bs-theme=light]).mode-switch .form-check-input:checked~.form-check-label:last-of-type, [data-bs-theme=dark] .form-switch:not([data-bs-theme=light]).price-switch .form-check-input:checked~.form-check-label:last-of-type {
+    color: #fff !important;
+}
+[data-bs-theme=dark] .form-check:not([data-bs-theme=light]) .form-check-input:checked:not(.is-invalid):not(:invalid) {
+    border-color: rgb(49, 203, 158) !important;
+}
+[data-bs-theme=dark] .form-switch:not([data-bs-theme=light]).mode-switch .form-check-input, [data-bs-theme=dark] .form-switch:not([data-bs-theme=light]).price-switch .form-check-input {
+    background-color: rgb(49, 203, 158) !important;
+}
+.grecaptcha-badge {
+    visibility: hidden;
+}
